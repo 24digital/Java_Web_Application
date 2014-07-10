@@ -3,21 +3,24 @@ package logic;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * Created by Marion on 6/18/2014.
- */
 public class Expert {
     public Expert() {
-list.add("Heavy");
-        list.add("Small");
-    }
-    List list = new LinkedList();
 
-    public List getList() {
-        return list;
     }
 
-    public void setList(List list) {
-        this.list = list;
+    private List <String> inventory = new LinkedList();
+
+    public List getInventory() {
+        return inventory;
+    }
+
+    public void setInventory(String beer) {
+       this.inventory.add(beer);
+    }
+
+    public String myResponse()
+    {
+        String beer = inventory.get(0);
+       return beer;
     }
 }

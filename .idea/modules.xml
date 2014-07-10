@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DataSource/DataSource.iml" filepath="$PROJECT_DIR$/DataSource/DataSource.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_Web_Application.iml" filepath="$PROJECT_DIR$/Java_Web_Application.iml" />
     </modules>
   </component>
